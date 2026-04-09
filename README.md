@@ -68,8 +68,3 @@ cd frontend && npm install && npm start
 - `admin` — full access
 
 
-## Start infra + all backend services
-`docker compose -f infra/docker-compose.yml up --build`
-
-## Start frontend (separate terminal)
-`cd frontend && npm install && npm start`
