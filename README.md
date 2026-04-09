@@ -66,4 +66,10 @@ cd frontend && npm install && npm start
 - `buyer` — track orders
 - `seller` — update order/inventory status
 - `admin` — full access
-# real-time-inventory-order-tracking
+
+
+## Start infra + all backend services
+`docker compose -f infra/docker-compose.yml up --build`
+
+## Start frontend (separate terminal)
+`cd frontend && npm install && npm start`
