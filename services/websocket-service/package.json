@@ -1,0 +1,20 @@
+{
+  "name": "websocket-service",
+  "version": "1.0.0",
+  "description": "Real-time WebSocket service consuming Kafka events",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "kafkajs": "^2.2.4",
+    "redis": "^4.6.11",
+    "socket.io": "^4.6.2",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
